@@ -50,3 +50,59 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+}
+
+.container {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 40px;
+}
+
+.container h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.container small {
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.container aside {
+	margin-bottom: 20px;
+	background-color: #ede9e9;
+	padding: 10px;
+}
+
+.container aside ul {
+	list-style: disc;
+}
+
+.container > p {
+	text-align: justify;
+}
+
+.container section h2 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.container section p {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.container section p strong {
+	color: #565555;
+}
+
+.container section span {
+	background-color: #ede9e9;
+	padding: 5px;
+}
